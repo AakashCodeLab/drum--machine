@@ -1,0 +1,20 @@
+@media screen and (max-width: 650px){
+  html{
+    font-size: 80%;
+  }
+  .drum-machine {
+    width: 100vw !important;
+
+    .drum-pad {
+      width: calc(30vw - 10px) !important;
+      height: calc(30vw - 10px) !important;
+      h4, p {
+        margin-top: 0;
+      }
+      img {
+        height: 40%;
+        width: auto;
+      }
+    }
+  }
+}
